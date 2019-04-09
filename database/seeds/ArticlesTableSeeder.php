@@ -31,7 +31,7 @@ class ArticlesTableSeeder extends Seeder
             \App\Products::create([
                 'id' => $i,
                'name' => $faker->name(),
-               'price' => $faker->randomFloat(2,0,1000000)
+               'price' => $faker->randomFloat(2,0,1000)
             ]);
         }
     }
